@@ -1,0 +1,111 @@
+/* Robby Brosman's CSS */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800,100);
+
+body, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	line-height: 32px;
+	vertical-align: middle;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
+	background-color: white;
+	color: black;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+
+h1 {
+	font-size: 40px;
+	font-weight: 800;
+}
+
+header {
+	position: fixed;
+	width: 75%;
+	right: 12.5%;
+	background-color: black;
+	height: 63px;
+}
+
+header a {
+	font-size: 16px;
+	font-weight: 800;
+	color: inherit;
+}
+.navbar-nav {
+	float: right;
+}
+
+.navbar-brand span {
+	margin-left:10px;
+}
+
+.navbar-nav li a, .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-nav li a:hover {
+	transition: .2s;
+	-webkit-transition: .5s; /* Safari */
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a>img {
+	margin-right: 10px;
+}
+
+header {
+	top: 100px;
+}
+
+.jumbotron {
+	background-color: black;
+	margin-bottom: 0px;
+}
+
+#home.jumbotron {
+	background-image:url("img/robbybg.jpg");
+	background-size: cover;
+}
+
+#home.jumbotron .container {
+	padding-top: 200px;
+	padding-bottom: 100px;
+	font-size: 40px;
+}
+
+#develop {
+}
+
+#design {
+}
+
+#blog {
+
+}
+
+#contact {
+	background-color: white;
+}
+
+footer {
+	/**/
+	color: black;
+}
+
+#home h1 {
+	transition: .2s;
+	-webkit-transition: .5s; /* Safari */
+}
+
+nav.navbar.navbar-default.navbar-header.a.navbar-brand, nav .navbar-default, nav .navbar, nav .navbar-collapse, nav.navbar.navbar-default, nav a, nav .nav a {
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+nav.navbar.navbar-default.navbar-header.a.navbar-brand:hover,nav a:hover, nav .nav a:hover {
+	background-color: white;
+	color: black;
+}

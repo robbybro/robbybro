@@ -1,0 +1,365 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"template",
+				"templateClone"
+			],
+			[
+				"templa",
+				"templateClone"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "website_bootstrapped/index.html",
+			"settings":
+			{
+				"buffer_size": 4529,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "website_bootstrapped/scripts/robbybro.js",
+			"settings":
+			{
+				"buffer_size": 1854,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "website_bootstrapped/robbybro.css",
+			"settings":
+			{
+				"buffer_size": 1726,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Robby/Desktop/lab5/js/employees.js",
+		"/C/Users/Robby/Documents/in-class-code-a/jquery/js/jquery-demo.js",
+		"/C/Users/Robby/Documents/in-class-code-a/jquery/index.html",
+		"/C/Users/Robby/Desktop/lab5/js/address-book.js",
+		"/C/Users/Robby/Desktop/lab5/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/css/dawg.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/inc/header.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/index.shtml",
+		"/C/Users/Robby/Dropbox/robbybro/website/index.html",
+		"/C/Users/Robby/Dropbox/robbybro/index.html",
+		"/C/Users/Robby/Dropbox/robbybro/landingPage.css",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/header.php",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/css/reset.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/inc/footer.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/jobs.shtml",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/menu.shtml",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/about.shtml",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/css/styles.css",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/index.html",
+		"/C/Users/Robby/Desktop/timetable.jpg",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/bootstrap-3.0.0/getting-started.html",
+		"/C/Users/Robby/Desktop/colorchangerd/styles.css",
+		"/C/Users/Robby/Desktop/colorchangerd/index.html",
+		"/C/Users/Robby/Documents/lab3/css/styles.css",
+		"/C/Users/Robby/Documents/lab3/index.html",
+		"/C/Users/Robby/Documents/robbybro/website/landingPage/index.html",
+		"/C/Users/Robby/Desktop/reset.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework1/css/reset.css",
+		"/C/Users/Robby/Documents/robbybro/website_Old/index.html",
+		"/C/Users/Robby/Documents/robbybro/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework1/jobs.shtml",
+		"/C/Users/Robby/Documents/lab2/index.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".show()",
+			"curModeName",
+			"setMode",
+			"copyright",
+			"\">\n",
+			"header",
+			"middle",
+			"vertical-align",
+			"jumbotron",
+			"50px",
+			".shtml",
+			"spicy",
+			"shadow",
+			"h3",
+			"h2",
+			"italic",
+			"h3",
+			"h4",
+			"h3",
+			"h2",
+			"h4",
+			"<p>Business Hours</p>\n			<p>10:00am - 11:00pm, Monday - Saturday</p>",
+			"100px",
+			"padding",
+			"h4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "website_bootstrapped/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2001,
+								2001
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 580.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "website_bootstrapped/scripts/robbybro.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "website_bootstrapped/robbybro.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Robby\\Documents\\robbybro\\website\\website_sublimeProject.sublime-workspace"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

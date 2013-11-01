@@ -1,6 +1,7 @@
 /*Robby Brosman Landing Page CSS*/
 body{
 	background-image: url("runway.jpg");
+	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 	min-width: 1700 px;
 	max-width:1920 px;
