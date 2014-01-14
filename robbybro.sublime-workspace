@@ -1,0 +1,423 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"porf",
+				"portfolio-menu-button"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"mob",
+				"mobile"
+			],
+			[
+				"des",
+				"deskTab"
+			],
+			[
+				"mobile",
+				"mobileTemplateClone"
+			],
+			[
+				"hexThre",
+				"hexThreeRow_Two"
+			],
+			[
+				"hexThree",
+				"hexThreeRow_One"
+			],
+			[
+				"template",
+				"templateClone"
+			],
+			[
+				"templa",
+				"templateClone"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!-- Hi, my name is Robby Brosman and this is my homepage source code.\nCreated by Robby Brosman, robbybro@uw.edu, 6/19/13 -->\n<!DOCTYPE HTML>\n<html>\n<head>\n	<meta name=\"author\" content=\"Robby Brosman\" />\n	<meta name=\"description\" content=\"Robby Brosman's personal website.\"/>\n	<meta name=\"keywords\" content=\"Robby, Robert, Brosman, robbybro, robbitthehobbitt, software developer, information scientist, software engineer, web developer, University of Washington, design, develop, blog, about, contact, facebook, LinkedIn\"/>\n	<!-- Behavioral MetaData for parallax.js-->\n	<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">\n\n	<title>Robby Brosman</title>\n	<link rel=\"stylesheet\" href=\"http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css\">\n	<link rel=\"stylesheet\" href=\"http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css\">\n	<link href=\"css/robbybro.css\" rel=\"stylesheet\" type=\"text/css\">\n\n	<!-- Behavioral Meta Data -->\n	<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">\n	<link rel=\"shortcut icon\" href=\"img/favicon.ico\" type=\"image/x-icon\">\n</head>\n<body data-spy=\"scroll\" data-target=\".navbar\">\n	<header>\n		<nav class=\"navbar navbar-default\" role=\"navigation\">\n  		  <!-- Brand and toggle get grouped for better mobile display -->\n		  <div class=\"navbar-header\">\n		    <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\">\n		      <span class=\"sr-only\">Toggle navigation</span>\n		      <span class=\"icon-bar\"></span>\n		      <span class=\"icon-bar\"></span>\n		      <span class=\"icon-bar\"></span>\n		    </button>\n		    <a class=\"menu-button navbar-brand\" href=\"#home\"><img id=\"logo\" src=\"img/logo_littleWhite.png\"><span>ROBBY</span> BROSMAN</a>\n		  </div>\n\n		  <!-- Collect the nav links, forms, and other content for toggling -->\n		  <div class=\"collapse navbar-collapse navbar-ex1-collapse\">\n		    <ul class=\"nav navbar-nav\">\n		      <li class='portfolio-menu-button'><a class=\"menu-button\" href=\"#portfolio\">Portfolio</a></li>\n		      <!-- <li><a href=\"#blog\">Blog</a></li> -->\n		      <li class='contact-menu-button'><a class=\"menu-button\" href=\"#contact\">Contact</a></li>\n		    </ul>\n		  </div>\n		</nav>\n	</header>\n	<div  data-stellar-background-ratio=\"0.5\" id=\"home\" class=\"jumbotron\">\n		<div class=\"range-div\" data-stellar-ratio=\".5\" data-stellar-offset-parent=\"true\">\n			<img class=\"range-img back-range\" src=\"img/bg/robbys-bg.jpg\">\n		</div>\n		<div class=\"range-div\" data-stellar-ratio=\".75\" data-stellar-vertical-offset=\"1000\">\n			<img class=\"range-img mid-range\" src=\"img/bg/robbys-bg-layer-1.png\">\n		</div>\n		<div class=\"range-div\" data-stellar-ratio=\"1.2\" data-stellar-vertical-offset=\"-3000\">\n			<img class=\"range-img front-range\" src=\"img/bg/robbys-bg-layer-2.png\">\n		</div>\n		<div class=\"range-div\" data-stellar-ratio=\".2\" data-stellar-vertical-offset=\"100\">\n			<p id=\"introText\">Hi, my name is Robby and I make cool stuff.\n<!-- 			</span id=\"stuff-i-do\"><ul>\n					<li>software</li>\n					<li>websites</li>\n					<li>webapps</li>\n					<li>stuff</li>\n					<li>things</li>\n					<li>kerjiggers</li>\n					<li>designs</li>\n					<li>whats-its</li>\n				</ul></span> -->\n			</p>\n		</div>\n	</div>\n	<div id=\"portfolio\" class=\"jumbotron\">\n			<!--Content: Blurb on Design, HRC, Tumblebears, Robert Brosman (logo), Purple Squirrel, 'coming soon, LNL'-->\n		<h2 class='headers'>My Work</h2>\n	</div>\n	<div class='project-panel'>\n		<img src=\"img/close.png\">\n	</div>\n<!--<div id=\"blog\" class=\"jumbotron\">\n		<div class=\"container\">\n			<h2>Blog</h2>\n		</div>\n	</div> -->\n	<div id=\"contact\" class=\"jumbotron\">\n		<h2 class='headers'>Come At Me</h2>\n		<div id=\"contact-buttons\">\n			<a target=\"_blank\" href=\"https://www.facebook.com/robby.brosman\"><img src=\"img/facebook.png\" alt=\"facebook\"/></a>\n			<a target=\"_blank\" href=\"http://www.linkedin.com/in/robertbrosman\"><img src=\"img/linkedin.png\" alt=\"linked in\"/></a>\n			<a target=\"_blank\" href=\"mailto:robbybro@uw.edu\"><img src=\"img/email.png\" alt=\"email\"></a>\n		</div>\n	</div>\n	<footer>\n		<p>Copyright 2013 Robby Brosman</p>\n	</footer>\n\n    <!--design template-->\n    <div class=\"templates\">\n		<div class=\"hex-template\">\n		  <a id=\"\" href=\"#\">\n		    <div class=\"hex-1\"></div>\n		    <div class=\"hex-2\"></div>\n		    <div class=\"inner\"></div>\n		    <div class=\"hover-inner\"></div>\n		  </a>\n		</div>\n\n		<div class=\"mobile-portfolio-template\">\n			<p></p>\n		</div>\n\n		<div class='fullscreen-project-template'>\n			<h2 class='project-title'></h2>\n			<img class='project-img' src=\"\">\n			<p class='project-description'></p>\n		</div>\n    </div>\n\n	<!--scripts-->\n	<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js\"></script>\n	<script src=\"js/descriptions.js\" type=\"text/javascript\"></script>\n	<script src=\"js/robbybro.js\" type=\"text/javascript\"></script>\n	<script src=\"http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\"></script>\n	<script type=\"text/javascript\" src=\"js/stellar/jquery.stellar.min.js\"></script>\n	<script type=\"text/javascript\" src=\"js/waypoints/waypoints.min.js\"></script>\n	<script type=\"text/javascript\" src=\"js/jquery-easing/jquery.easing.1.3.js\"></script>\n	<script type=\"text/javascript\" src=\"js/jquery-easing/jquery.easing.compatibility.js\"></script>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 5564,
+			"file_write_time": 130341194910543141,
+			"settings":
+			{
+				"buffer_size": 5468,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/robbybro.css",
+			"settings":
+			{
+				"buffer_size": 8592,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/robbybro.js",
+			"settings":
+			{
+				"buffer_size": 12328,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Robby/Dropbox/robbybro/js/robbybro.js",
+		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/robbybro.css",
+		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/scripts/robbybro.js",
+		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/index.html",
+		"/C/Users/Robby/Desktop/lab5/js/employees.js",
+		"/C/Users/Robby/Documents/in-class-code-a/jquery/js/jquery-demo.js",
+		"/C/Users/Robby/Documents/in-class-code-a/jquery/index.html",
+		"/C/Users/Robby/Desktop/lab5/js/address-book.js",
+		"/C/Users/Robby/Desktop/lab5/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/css/dawg.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/inc/header.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/index.shtml",
+		"/C/Users/Robby/Dropbox/robbybro/website/index.html",
+		"/C/Users/Robby/Dropbox/robbybro/index.html",
+		"/C/Users/Robby/Dropbox/robbybro/landingPage.css",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/header.php",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/css/reset.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/inc/footer.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/jobs.shtml",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/menu.shtml",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/about.shtml",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/css/styles.css",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/index.html",
+		"/C/Users/Robby/Desktop/timetable.jpg",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/bootstrap-3.0.0/getting-started.html",
+		"/C/Users/Robby/Desktop/colorchangerd/styles.css",
+		"/C/Users/Robby/Desktop/colorchangerd/index.html",
+		"/C/Users/Robby/Documents/lab3/css/styles.css",
+		"/C/Users/Robby/Documents/lab3/index.html",
+		"/C/Users/Robby/Documents/robbybro/website/landingPage/index.html",
+		"/C/Users/Robby/Desktop/reset.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework1/css/reset.css",
+		"/C/Users/Robby/Documents/robbybro/website_Old/index.html",
+		"/C/Users/Robby/Documents/robbybro/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework1/jobs.shtml",
+		"/C/Users/Robby/Documents/lab2/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"footer",
+			"prevent",
+			".navbar-nav",
+			"}",
+			"{",
+			"this",
+			"animate",
+			"5s",
+			".show()",
+			"curModeName",
+			"setMode",
+			"copyright",
+			"\">\n",
+			"header",
+			"middle",
+			"vertical-align",
+			"jumbotron",
+			"50px",
+			".shtml",
+			"spicy",
+			"shadow",
+			"h3",
+			"h2",
+			"italic",
+			"h3",
+			"h4",
+			"h3",
+			"h2",
+			"h4",
+			"<p>Business Hours</p>\n			<p>10:00am - 11:00pm, Monday - Saturday</p>",
+			"100px",
+			"padding",
+			"h4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3583,
+								3583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2509.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/robbybro.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8054,
+								8054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7395.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/robbybro.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8715,
+								8715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4346.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.439536527004,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "robbybro.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Robby\\Documents\\robbybro\\website\\website_sublimeProject.sublime-workspace"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
