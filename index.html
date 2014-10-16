@@ -21,6 +21,9 @@ Created by Robby Brosman, robbybro@uw.edu, 6/19/13 -->
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body data-spy="scroll" data-target=".navbar">
+	<div class='loading'>
+		<p>loading...</p>
+	</div>
 	<header>
 		<nav class="navbar navbar-default" role="navigation">
   		  <!-- Brand and toggle get grouped for better mobile display -->
@@ -109,9 +112,9 @@ Created by Robby Brosman, robbybro@uw.edu, 6/19/13 -->
 		</div>
 
 		<div unselectable="on" class='fullscreen-project-template'>
-			<h2 class='project-title'></h2>
-			<img class='project-img' src="">
-			<p class='project-description'></p>
+			<h2  selectable="false" class='project-title'></h2>
+			<img selectable="false" class='project-img' draggable="false" src="">
+			<p selectable="false" class='project-description'></p>
 		</div>
     </div>
 

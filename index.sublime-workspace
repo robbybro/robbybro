@@ -1,0 +1,560 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"legend",
+				"legendSvg"
+			],
+			[
+				"reflex",
+				"reflex_legendDivContainercredivis"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"calendar",
+				"calendarUrl"
+			],
+			[
+				"to",
+				"toISOString"
+			],
+			[
+				"txt",
+				"text-decoration"
+			],
+			[
+				"pizza",
+				"pizzaCartObjectClone"
+			],
+			[
+				"drinkDessert",
+				"drinkDessertCartObjectClone"
+			],
+			[
+				"drinkDessertTeml",
+				"drinkDessertTemplateClone"
+			],
+			[
+				"drinkd",
+				"drinkDessertTemplateClone"
+			],
+			[
+				"drink",
+				"drink-dessert-template"
+			],
+			[
+				"content",
+				"contentPopulator"
+			],
+			[
+				"cont",
+				"contactChild"
+			],
+			[
+				"aside",
+				"asideinator"
+			],
+			[
+				"template",
+				"templateClone"
+			],
+			[
+				"templa",
+				"templateClone"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5675,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/css/ForceDirected.css",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/radial.js",
+		"/C/Users/Robby/Dropbox/reflex/credivis_new/css/CrediVis.css",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/css/credivis.css",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/css/plugins.css",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/tests/test_wikiUsers.html",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/force.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/console.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/topEditors.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/dashboard.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/timeframe.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/sunburst.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/stub.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/edge.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/css/reflex.css",
+		"/C/Users/Robby/Dropbox/reflex/credivis_new/index.html",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar_updated/media/js/reflex_core/credi2.js",
+		"/C/Users/Robby/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Robby/Desktop/wikiTitlesClean.txt",
+		"/C/Users/Robby/Dropbox/wamp/www/workspace/info344/PA2/wikiTitlesClean.txt",
+		"/C/Users/Robby/Dropbox/wamp/www/workspace/info344/PA2/cleanUpText.php",
+		"/C/Users/Robby/Dropbox/wamp/www/workspace/info344/PA2/wikiTitles.txt",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/d3.v3.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/reflex_core/core.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/reflex.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/tests/test_wikiUsers.html",
+		"/C/Users/Robby/Dropbox/reflex/reflex documentation.txt",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/reflex_core/radial.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/reflex_core/credivis.js",
+		"/C/Users/Robby/Desktop/index.php",
+		"/C/Users/Robby/Dropbox/wamp/www/index.php",
+		"/C/Users/Robby/Dropbox/wamp/www/test.php",
+		"/C/Users/Robby/Dropbox/reflex/credivis_new/lib/CrediVis.js",
+		"/C/Users/Robby/Dropbox/reflex/credivis_new/lib/CrediVis_global.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/reflex_core/dashboard.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/reflex_core/sunburst.js",
+		"/C/Users/Robby/Dropbox/swing-kids/index.html",
+		"/C/Users/Robby/Downloads/swing-kids/swing-kids/index.html",
+		"/C/Users/Robby/Desktop/swing-kids/index.html",
+		"/C/Users/Robby/Dropbox/swing-kids/js/swing-kids.js",
+		"/C/Users/Robby/Dropbox/swing-kids/css/swing-kids.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/scripts/dawgPizza.js",
+		"/C/Users/Robby/Desktop/JE2/js/je2.js",
+		"/C/Users/Robby/Desktop/JE2/Joey Ellis Design.htm",
+		"/C/Users/Robby/Desktop/JE2/Joey Ellis Design_files/styles.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/css/dawg.css",
+		"/C/Users/Robby/Dropbox/Info 343/lab6/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/lab6/js/sign-up.js",
+		"/C/Users/Robby/Dropbox/Info 343/lab8/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/lab8/css/styles.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/dawgPizza.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/css/dawg.css",
+		"/C/Users/Robby/Dropbox/Info 343/lab8/js/controller.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/menu.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/events.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/cartView.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/cart.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/models.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/movies.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/moviesView.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/movieView.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/utils.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4 .1/scripts/views.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/css/Sunburst.css",
+		"/C/Users/Robby/Dropbox/reflex/htmlTemtplates_reflex.html",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/plainPage.html",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/reEarth.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/reflex.sublime-workspace",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/reflex.sublime-project",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/scripts/cart.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/scripts/menu.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/scripts/models.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/scripts/cartView.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/scripts/movies.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/scripts/moviesView.js",
+		"/C/Users/Robby/Dropbox/Info 343/lab8/js/cart.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework4/scripts/controller.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/tests/test_readWrite.html",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/css/plugins.css",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/css/CrediVis.css",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/d3.v2.min.js",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/bargraphtest.html",
+		"/C/Users/Robby/Dropbox/reflex/reflexToolbar/reflexToolbar/media/js/reflex_core/edge.js",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/newsFeed.html",
+		"/C/Users/Robby/Dropbox/reflex/credivis/index.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/css/hrc.css",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/members.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/index.html",
+		"/C/Users/Robby/Dropbox/wamp/www/Husky-Running-Club/css/hrc.css",
+		"/C/Users/Robby/Dropbox/wamp/www/Husky-Running-Club/inc/members.html",
+		"/C/Users/Robby/Dropbox/wamp/www/Husky-Running-Club/js/hrc.js",
+		"/C/Users/Robby/Dropbox/wamp/www/Husky-Running-Club/index.shtml",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/index.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/index.shtml",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/js/hrc.js",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/routes.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/upcomingEvents.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/photos.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/about.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/footer.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/header.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/inc/keepUp.html",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/font/font.css",
+		"/C/Users/Robby/workspace/UnionMaze/output.txt",
+		"/C/Users/Robby/Dropbox/reflex/credivis/lib/d3.v3.js",
+		"/C/Users/Robby/Dropbox/reflex/credivis/credvis.sublime-project",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/scripts/menu.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/scripts/dawgPizza.js",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/css/dawg.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/html/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/inc/jobs.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/inc/header.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/inc/footer.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/inc/about.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework3/inc/menu.html",
+		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/robbybro.css",
+		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/scripts/robbybro.js",
+		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/scripts/descriptions.js",
+		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/index.html",
+		"/C/Users/Robby/Desktop/lab5/js/employees.js",
+		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/scripts/parallax-master/examples/simple.html",
+		"/C/Users/Robby/Documents/in-class-code-a/jquery/js/jquery-demo.js",
+		"/C/Users/Robby/Documents/in-class-code-a/jquery/index.html",
+		"/C/Users/Robby/Desktop/lab5/js/address-book.js",
+		"/C/Users/Robby/Desktop/lab5/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar_updated",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\credivis_new",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar_updated\\css",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\credivis_new",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar_updated",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar\\reflexToolbar",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar\\reflexToolbar\\media\\js\\reflex_core",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar\\reflexToolbar",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar\\reflexToolbar",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar\\reflexToolbar\\media\\css",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar\\reflexToolbar",
+			"C:\\Users\\Robby\\Dropbox\\Info 343\\lab8",
+			"C:\\Users\\Robby\\Dropbox\\reflex\\reflexToolbar\\reflexToolbar"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pad",
+			"convertWikiWeekToDate",
+			".8",
+			"drawSettings",
+			"radial",
+			"EF",
+			"$cont.attr(\"id\")",
+			"$cont.attr('id')",
+			"infobox",
+			"mymousemove",
+			"infobox",
+			"planetMouse",
+			"$cont.params.start",
+			"EF",
+			"timerStart",
+			"t_timer",
+			"playPause",
+			"play",
+			"dashboard.css",
+			"planetMouseOver",
+			"infobox",
+			"myMouseMove",
+			" $(",
+			"r_selector",
+			"credivis_svgLegend",
+			"legendClass",
+			"svg",
+			"svgWidth",
+			"svgGraph",
+			"circl",
+			"sSvg",
+			"ssvg",
+			"sSvg",
+			".selectAll",
+			"querySelectorAll",
+			"ssvg",
+			"svgLegend",
+			"svgGraph",
+			"#main svg",
+			"svgGraph",
+			"svg",
+			"sSvg",
+			"ssvg",
+			"append",
+			"append	",
+			"append",
+			"appendChild",
+			"szWidth",
+			"svgHeight",
+			"scgHeight",
+			"sSvg",
+			"svgGraph",
+			"szSafeZone",
+			"safeZone",
+			"szSafezone",
+			"szHeight",
+			"user",
+			"rc_edits",
+			"EF",
+			"console.log",
+			"velcut",
+			"pad",
+			"var velcut = d",
+			"pad",
+			"$cont.params",
+			"$cont.params.en",
+			"velcut",
+			"pad",
+			"convertWikiWeekToDate",
+			"sSvg",
+			"sData",
+			"svg",
+			"res",
+			"elevatorTooltip",
+			"elevator",
+			"tooltip",
+			"reflex_pluginSection",
+			"reflex_plugin",
+			"validateTools",
+			"registerTools",
+			"loadTools",
+			"this._loadTools(tools);",
+			"      this._loadTools(tools);\n",
+			"credivis",
+			"reflex_legendDivContainer",
+			"topEditors",
+			"getTopUsers",
+			"data",
+			"data.topUsers",
+			"MyMouseMove",
+			"credivisGraph",
+			"MyMouseMove",
+			"users",
+			"complete",
+			"        var users = new Array();\n        for (var i = 0; i < data.topusers.length; i++) {\n            users.push(data.topusers[i].username);\n            if (i == 9) break;\n        }",
+			"users",
+			"revData.reverts",
+			"editData.edits",
+			"users",
+			"setInterval",
+			"infobox",
+			"credivisGraph",
+			"innerHTML",
+			"innerHtml",
+			"initToolTip",
+			"initToolTip()",
+			"sData",
+			"selectable index",
+			"createLegendContainer",
+			"initToolTip()",
+			"dataEngine",
+			"graphDivId",
+			"loadid",
+			"loadId1",
+			"fillLegendContainer",
+			"legend",
+			"createLegendContainer",
+			"$cont",
+			"legend",
+			"callback",
+			"Legend",
+			"callback",
+			"radialGraph",
+			"callback",
+			"displayData",
+			"dataEngine",
+			"attr",
+			"visualize"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4945,
+								5035
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2113.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Robby\\Documents\\robbybro\\website\\website_sublimeProject.sublime-workspace"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

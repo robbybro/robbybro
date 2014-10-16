@@ -457,6 +457,20 @@ how to get a down arrow:
 	max-width: 500px;
 }
 
+.loading {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 9003;
+	background-color: black;
+	color: white;
+}
+
+.loaded {
+	display: none;
+
+}
+
 
 footer {
 	text-align: center;

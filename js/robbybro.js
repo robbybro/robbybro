@@ -6,8 +6,17 @@ var deskTab;
 var mobile;
 var windowHeight;
 var windowWidth;
-
+$(window).load(function() {
+	console.log('document loaded');
+	// get rid of loading screen
+	$('.loading').remove();
+});
 $(function(){
+	console.log('document loading...');
+	$('.loading').css({
+		'height' : $(window).height(),
+		'width' : $(window).width()
+	});
 	// run all the stuff where screensize doesn't matter
 	universalController();
 
