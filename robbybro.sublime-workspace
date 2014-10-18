@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"header",
+				"headerImgHeight"
+			],
+			[
+				"random",
+				"randomPortfolioBackground"
+			],
+			[
+				"width",
+				"widthheight"
+			],
+			[
+				"squareif",
+				"squareifyPortfolio"
+			],
+			[
+				"squar",
+				"squareifyPortfolio"
+			],
+			[
 				"fullscreen",
 				"fullscreen-project-template"
 			],
@@ -87,23 +107,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5675,
+				"buffer_size": 4843,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/robbybro.css",
+			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 8963,
+				"buffer_size": 3290,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/robbybro.js",
+			"file": "js/portfolio.js",
 			"settings":
 			{
-				"buffer_size": 14285,
+				"buffer_size": 2677,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 2002,
 				"line_ending": "Windows"
 			}
 		}
@@ -133,13 +161,24 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Robby/Dropbox/robbybro",
+		"/C/Users/Robby/Dropbox/robbybro/css",
+		"/C/Users/Robby/Dropbox/robbybro/img",
+		"/C/Users/Robby/Dropbox/robbybro/js"
+	],
 	"file_history":
 	[
+		"/C/Users/Robby/Dropbox/robbybro/js/portfolio.js",
+		"/C/Users/Robby/Dropbox/robbybro/js/scripts.js",
+		"/C/Users/Robby/Dropbox/prometheus/static/public/index.html",
+		"/C/Users/Robby/Dropbox/robbybro/img/faviconit/faviconit-instructions.txt",
+		"/C/Users/Robby/Dropbox/robbybro/js/robbybro.js",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/Robby/Dropbox/wamp/alias/phpmyadmin.conf",
 		"/C/Users/Robby/Dropbox/wamp/bin/apache/apache2.2.22/conf/httpd.conf",
 		"/C/Users/Robby/Desktop/info344notes",
-		"/C/Users/Robby/Dropbox/robbybro/js/robbybro.js",
 		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/robbybro.css",
 		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/scripts/robbybro.js",
 		"/C/Users/Robby/Dropbox/robbybro/website_bootstrapped/index.html",
@@ -178,11 +217,11 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 117.0,
 		"where_history":
 		[
 		]
@@ -192,6 +231,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font",
+			"full-screen-slide-inner",
+			".portfolio-image-background-1",
+			"img src",
+			"col-md-4'",
+			"scrol-button",
+			".col-md-4",
+			"h1",
+			"menu-button",
+			"favicon/",
+			"/favicon",
+			"imageResize",
 			"waypoint",
 			".click",
 			"footer",
@@ -244,12 +295,7 @@
 	"groups":
 	[
 		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -258,15 +304,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5675,
+						"buffer_size": 4843,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5518,
-								5518
+								3900,
+								3900
 							]
 						],
 						"settings":
@@ -275,27 +321,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1440.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 1,
-					"file": "css/robbybro.css",
+					"file": "css/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8963,
+						"buffer_size": 3290,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								1624,
+								1624
 							]
 						],
 						"settings":
@@ -304,27 +356,56 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1145.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "js/robbybro.js",
+					"file": "js/portfolio.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14285,
+						"buffer_size": 2677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10281,
-								10094
+								1522,
+								1522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 548.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								161
 							]
 						],
 						"settings":
@@ -336,7 +417,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -344,11 +425,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -370,7 +451,7 @@
 		"cols":
 		[
 			0.0,
-			0.0686813186813,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -387,7 +468,7 @@
 	"project": "robbybro.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -405,7 +486,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Robby\\Documents\\robbybro\\website\\website_sublimeProject.sublime-workspace"
+				"C:\\Users\\Robby\\Dropbox\\prometheus\\prometheus.sublime-project"
 			]
 		],
 		"width": 475.0
@@ -418,6 +499,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

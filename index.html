@@ -4,129 +4,83 @@ Created by Robby Brosman, robbybro@uw.edu, 6/19/13 -->
 <html>
 <head>
 	<meta name="author" content="Robby Brosman" />
-	<meta name="description" content="Robby Brosman's personal website."/>
+	<meta name="description" content="Robby Brosman's website."/>
 	<meta name="keywords" content="Robby, Robert, Brosman, robbybro, robbitthehobbitt, software developer, information scientist, software engineer, web developer, University of Washington, design, develop, blog, about, contact, facebook, LinkedIn"/>
-	<!-- Behavioral MetaData for parallax.js-->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<title>Robby Brosman</title>
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-	<link href="css/robbybro.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
 
-	<!-- Behavioral Meta Data -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="img/favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="img/favicon/favicon-196.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="img/favicon/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="img/favicon/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/favicon-72.png">
+	<link rel="apple-touch-icon" href="img/favicon/favicon-57.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="img/favicon/favicon-144.png">
+	<meta name="msapplication-config" content="/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->
 </head>
-<body data-spy="scroll" data-target=".navbar">
-	<div class='loading'>
-		<p>loading...</p>
-	</div>
-	<header>
-		<nav class="navbar navbar-default" role="navigation">
-  		  <!-- Brand and toggle get grouped for better mobile display -->
-		  <div class="navbar-header">
-		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-		      <span class="sr-only">Toggle navigation</span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		    </button>
-		    <a class="menu-button navbar-brand" href="#home"><img id="logo" src="img/logo_littleWhite.png"><span>ROBBY</span> BROSMAN</a>
-		  </div>
-
-		  <!-- Collect the nav links, forms, and other content for toggling -->
-		  <div class="collapse navbar-collapse navbar-ex1-collapse">
-		    <ul class="nav navbar-nav">
-		      <li class='portfolio-menu-button'><a class="menu-button" href="#portfolio">Portfolio</a></li>
-		      <!-- <li><a href="#blog">Blog</a></li> -->
-		      <li class='contact-menu-button'><a class="menu-button" href="#contact">Contact</a></li>
-		    </ul>
-		  </div>
-		</nav>
-	</header>
-	<div  data-stellar-background-ratio="0.5" id="home" class="jumbotron">
-		<div class="range-div" data-stellar-ratio=".5" data-stellar-offset-parent="true">
-			<img class="range-img back-range" src="img/bg/robbys-bg.jpg">
-		</div>
-		<div class="range-div" data-stellar-ratio=".75" data-stellar-vertical-offset="1000">
-			<img class="range-img mid-range" src="img/bg/robbys-bg-layer-1.png">
-		</div>
-		<div class="range-div" data-stellar-ratio="1.2" data-stellar-vertical-offset="-3000">
-			<img class="range-img front-range" src="img/bg/robbys-bg-layer-2.png">
-		</div>
-		<div class="range-div" data-stellar-ratio=".2" data-stellar-vertical-offset="100">
-			<p id="introText">Hi, my name is Robby and I make cool stuff.
-<!-- 			</span id="stuff-i-do"><ul>
-					<li>software</li>
-					<li>websites</li>
-					<li>webapps</li>
-					<li>stuff</li>
-					<li>things</li>
-					<li>kerjiggers</li>
-					<li>designs</li>
-					<li>whats-its</li>
-				</ul></span> -->
-			</p>
+<body>
+	<div class='header full-screen-slide'>
+		<img class='full-screen-slide-inner' src="img/rb.png">
+		<div data-href='#intro' class='scroll-button down'>
+			<span class='glyphicon glyphicon-chevron-down full-screen-slide-inner'></span>
 		</div>
 	</div>
-	<div id="portfolio" class="jumbotron">
-			<!--Content: Blurb on Design, HRC, Tumblebears, Robert Brosman (logo), Purple Squirrel, 'coming soon, LNL'-->
-		<h2 class='headers'>My Work</h2>
+	<div id='intro' class='full-screen-slide'>
+		<!-- <div id='#intro-inner' class='full-screen-slide'> -->
+			<p class='full-screen-slide-inner'>Hi, my name is Robby and I make cool stuff for the web. <span class='scroll-button' data-href='#work'>Check out my work</span>, <span class='scroll-button' data-href='#about'>get to know me</span>, and if you want more feel free to <span class='scroll-button' data-href='#contact'>reach out</span>!</p>
+		<!-- </div> -->
 	</div>
-	<div class='project-panel'>
-		<img src="img/close.png">
+	<div id='work'>
+		<h2><span>Check Out My</span> Work</h2>
+		<div class='container'><!--Inject Portfolio with handlebars here--></div>
 	</div>
-<!--<div id="blog" class="jumbotron">
-		<div class="container">
-			<h2>Blog</h2>
-		</div>
-	</div> -->
-	<div id="contact" class="jumbotron">
-		<h2 class='headers'>Come At Me</h2>
-		<div id="contact-buttons">
-			<a target="_blank" href="https://www.facebook.com/robby.brosman"><img src="img/facebook.png" alt="facebook"/></a>
-			<a target="_blank" href="http://www.linkedin.com/in/robertbrosman"><img src="img/linkedin.png" alt="linked in"/></a>
-			<a target="_blank" href="mailto:robbybro@uw.edu"><img src="img/email.png" alt="email"></a>
+	<div id='about' class='full-screen-slide'>
+		<h2><span>Get to Know</span> Me</h2>
+		<p class='full-screen-slide-inner'>I love fitness. I am a marathoner, snowboarder, and soccer player. I've been cooking since I was 8 years old. I can kind of play guitar. I almost minored in Spanish and love the culture. I have tons of hobbies and way too many collections. I am a Lord of the Rings, Star Wars, and of recent Harry Potter geek and I </p>
+	</div>
+	<div id='contact' class='full-screen-slide'>
+		<h2><span>Feel Free to</span>Reach Out</h2>
+		<div class='full-screen-inner container'>
+			<a href=""><img src="img/icons/email-128.png" /></a>
+			<a href=''><img src="img/icons/facebook-128.png" /></a>
+			<a href=''><img src="img/icons/linkedin-128.png" /></a>
 		</div>
 	</div>
-	<footer>
-		<p>Copyright 2013 Robby Brosman</p>
-	</footer>
-
-    <!--design template-->
-    <div class="templates">
-		<div class="hex-template">
-		  <a id="" href="#">
-		    <div class="hex-1"></div>
-		    <div class="hex-2"></div>
-		    <div class="inner"></div>
-		    <div class="hover-inner"></div>
-		  </a>
-		</div>
-
-		<div class="mobile-portfolio-template">
-			<p></p>
-		</div>
-
-		<div unselectable="on" class='fullscreen-project-template'>
-			<h2  selectable="false" class='project-title'></h2>
-			<img selectable="false" class='project-img' draggable="false" src="">
-			<p selectable="false" class='project-description'></p>
-		</div>
-    </div>
 
 	<!--scripts-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script src="js/descriptions.js" type="text/javascript"></script>
-	<script src="js/robbybro.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src='js/handlebars-v2.0.0.js' type="text/javascript"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/stellar/jquery.stellar.min.js"></script>
-	<script type="text/javascript" src="js/waypoints/waypoints.min.js"></script>
-	<script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/jquery-easing/jquery.easing.compatibility.js"></script>
-	<script type="text/javascript" src="js/quo/quo.js"></script>
+	<script src='js/portfolio.js' type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+
+	<script id='portfolio-template' type="text/x-handlebars-template">
+		{{#each portfolio}}
+		<div class='col-md-4 portfolio-item'>
+			<div class='image-container {{this.backgroundColor}}'>
+				<img class='img-responsive' src='{{this.imageSrc}}' alt='{{this.imageName}}' />
+			</div>
+			<div class='description-container'>
+				<p>{{ this.description }} <a target='_blank' href='{{this.link}}' class='link'>Wanna see it?</a></p>
+			</div>
+		</div>
+		{{/each}}
+	</script>
+
 </body>
 </html>
