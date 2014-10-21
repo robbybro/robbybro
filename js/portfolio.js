@@ -33,6 +33,7 @@ var portfolio = {
 		'title' : 'Husky Running Club', // used for alt and eventually title piece
 		'imageSrc' : 'img/portfolio/hrc-portfolio.png',
 		'description' : 'This is a website I built for Husky Running Club, of which I have been an officer for the past 3 years.',
+		'live' : 'true',
 		'backgroundColor' : randomPortfolioBackground(),
 		'link' : 'http://students.washington.edu/uwrunner/'
 	},
@@ -40,6 +41,7 @@ var portfolio = {
 		'title' : 'Paws for a Cause',
 		'imageSrc' : 'img/portfolio/pawsforacause-portfolio.png',
 		'description' : 'This is a website I built for Paws for a Cause 5k, which raises money for Relay for Life',
+		'live' : 'true',
 		'backgroundColor' : randomPortfolioBackground(),
 		'link' : 'http://students.washington.edu/uwrunner/pawsforacause/'
 	},
@@ -54,6 +56,7 @@ var portfolio = {
 		'title' : 'Re:Flex Credivis',
 		'imageSrc' : 'img/portfolio/reflex-portfolio.png',
 		'description' : 'This is a data visualization I built to find credible users on Wikipedia.',
+		'live' : 'true',
 		'backgroundColor' : randomPortfolioBackground(),
 		'link' : 'http://www.hcde.washington.edu/files/advise/reflex_poster_final_02.pdf'
 	},
@@ -61,6 +64,7 @@ var portfolio = {
 		'title' : 'UW Swing Kids',
 		'imageSrc' : 'img/portfolio/swingkids-portfolio.png',
 		'description' : 'This is a website I built for UW Swing Kids Club.',
+		'live' : 'true',
 		'backgroundColor' : randomPortfolioBackground(),
 		'link' : 'http://students.washington.edu/robbybro/swingkd/'
 	},
@@ -68,6 +72,7 @@ var portfolio = {
 		'title' : 'Trimood Photography',
 		'imageSrc' : 'img/portfolio/trimood-portfolio.png',
 		'description' : 'This is a photography website I built for a friend.',
+		'live' : 'true',
 		'backgroundColor' : randomPortfolioBackground(),
 		'link' : 'http://students.washington.edu/robbybro/trimood/'
 	}

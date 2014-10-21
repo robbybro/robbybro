@@ -73,7 +73,7 @@ Created by Robby Brosman, robbybro@uw.edu, 6/19/13 -->
 				<img class='img-responsive' src='{{this.imageSrc}}' alt='{{this.imageName}}' />
 			</div>
 			<div class='description-container'>
-				<p>{{ this.description }} <a target='_blank' href='{{this.link}}' class='link'>Wanna see it?</a></p>
+				<p>{{ this.description }} {{#if this.live}}<a target='_blank' href='{{this.link}}' class='link'>Wanna see it?</a></p>{{else}}Beta coming soon.{{/if}}
 			</div>
 		</div>
 		{{/each}}
