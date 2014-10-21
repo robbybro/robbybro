@@ -62,7 +62,7 @@ var portfolio = {
 		'imageSrc' : 'img/portfolio/swingkids-portfolio.png',
 		'description' : 'This is a website I built for UW Swing Kids Club.',
 		'backgroundColor' : randomPortfolioBackground(),
-		'link' : 'http://students.washington.edu/swingkd/'
+		'link' : 'http://students.washington.edu/robbybro/swingkd/'
 	},
 	{
 		'title' : 'Trimood Photography',
