@@ -1,83 +1,16 @@
-<!-- Hi, my name is Robby Brosman and this is my homepage source code.
-Created by Robby Brosman, robbybro@uw.edu, 6/19/13 -->
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-	<meta name="author" content="Robby Brosman" />
-	<meta name="description" content="Robby Brosman's website."/>
-	<meta name="keywords" content="Robby, Robert, Brosman, robbybro, robbitthehobbitt, software developer, information scientist, software engineer, web developer, University of Washington, design, develop, blog, about, contact, facebook, LinkedIn"/>
-
-	<title>Robby Brosman</title>
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-
-	<!-- ****** faviconit.com favicons ****** -->
-	<link rel="shortcut icon" href="img/favicon/favicon.ico">
-	<link rel="icon" sizes="16x16 32x32 64x64" href="img/favicon/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="img/favicon/favicon-196.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="img/favicon/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="img/favicon/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/favicon-72.png">
-	<link rel="apple-touch-icon" href="img/favicon/favicon-57.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="img/favicon/favicon-144.png">
-	<meta name="msapplication-config" content="/browserconfig.xml">
-	<!-- ****** faviconit.com favicons ****** -->
+    <meta name="author" content="Robby Brosman" />
+    <meta name="description" content="Robby Brosman's website." />
+    <meta name="keywords" content="Robby, Robert, Brosman, robbybro, robbitthehobbitt, software developer, information scientist, software engineer, Front End Engineer, University of Washington, design, develop, blog, about, contact, facebook, linkedIn"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>typescript-webpack-node-docker-starter</title>
 </head>
 <body>
-	<div class='header full-screen-slide'>
-		<img class='full-screen-slide-inner' src="img/rb.png">
-		<div data-href='#intro' class='scroll-button down'>
-			<span class='glyphicon glyphicon-chevron-down full-screen-slide-inner'></span>
-		</div>
-	</div>
-	<div id='intro' class='full-screen-slide'>
-		<!-- <div id='#intro-inner' class='full-screen-slide'> -->
-			<p class='full-screen-slide-inner'>Hi, my name is Robby and I make cool stuff for the web. <span class='scroll-button' data-href='#work'>Check out my work</span> and if you want more feel free to <span class='scroll-button' data-href='#contact'>reach out</span>!</p>
-		<!-- </div> -->
-	</div>
-	<div id='work'>
-		<h2><span>Check Out My</span> Work</h2>
-		<div class='container'><!--Inject Portfolio with handlebars here--></div>
-	</div>
-	<div id='contact' class='full-screen-slide'>
-		<h2><span>Feel Free to </span>Reach Out</h2>
-		<span class='full-screen-slide-inner'>
-			<a class='social-icon-link' target='_blank' href="mailto:robbybro@uw.edu"><img data-animation="fadein" data-toggle="tooltip" data-placement="top" title data-original-title="robbybro@uw.edu" src="img/icons/email-128.png" class='social-icon'/></a>
-			<a target='_blank' class='social-icon-link' href='https://www.facebook.com/robby.brosman/'><img data-animation="fadein" data-toggle="tooltip" data-placement="top" title data-original-title="/robby.brosman/" src="img/icons/facebook-128.png" class='social-icon'/></a>
-			<a target='_blank' class='social-icon-link' href='http://www.linkedin.com/in/robertbrosman/'><img data-animation="fadein" data-toggle="tooltip" data-placement="top" title data-original-title="/in/robertbrosman/" src="img/icons/linkedin-128.png" class='social-icon'/></a>
-		</span>
-		<footer>&copy; Copyright 2014 Robby Brosman All Rights Reserved</footer>
-	</div>
-
-	<!--scripts-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src='js/handlebars-v2.0.0.js' type="text/javascript"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src='js/portfolio.js' type="text/javascript"></script>
-	<script src="js/scripts.js" type="text/javascript"></script>
-
-	<script id='portfolio-template' type="text/x-handlebars-template">
-		{{#each portfolio}}
-		<div class='col-md-4 portfolio-item'>
-			<div class='image-container {{this.backgroundColor}}'>
-				<img class='img-responsive' src='{{this.imageSrc}}' alt='{{this.imageName}}' />
-			</div>
-			<div class='description-container'>
-				<p>{{ this.description }} {{#if this.live}}<a target='_blank' href='{{this.link}}' class='link'>Wanna see it?</a></p>{{else}}Beta coming soon.{{/if}}
-			</div>
-		</div>
-		{{/each}}
-	</script>
-
+    <div id="app"></div>
+    <script src="bundle.js"></script>
 </body>
 </html>
