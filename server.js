@@ -14,8 +14,6 @@ process.noDeprecation = true
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 3000 : process.env.PORT;
 const _ = require('underscore');
-const axios = require('axios');
-const Instafeed = require('instafeed.js/instafeed');
 const morgan = require('morgan');
 const path = require('path');
 
@@ -52,12 +50,6 @@ else {
     app.use(express.static(staticPath));
 }
 
-app.get('/title', function (req, res) {
-    return res.json({
-        title: 'Hello World!'
-    });
-});
-
 app.listen(port, function () {
-    console.log('Project Running');
+    console.log('robbybro is up');
 });

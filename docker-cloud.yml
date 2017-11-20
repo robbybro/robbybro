@@ -1,6 +1,6 @@
 web:
   # Replace username/repo:tag with your name and image details.
-  image: 'robbybro/typescript-webpack-node-docker-starter:latest'
+  image: 'robbybro/robbybro:latest'
 
   # Redeploy web app in case if it's image is updated.
   autoredeploy: true

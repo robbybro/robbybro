@@ -37,18 +37,15 @@ module.exports = {
                 exclude: /node_modules/,
             },
             {
-                test: /\.(jpg|png|woff|woff2|eot|ttf|svg|otf)$/,
-                use: [
-                    {
-                        loader: 'file-loader?name=./assets/[name].[hash].[ext]'
-                        // loader: 'url-loader',
-                        // options: {
-                        //     limit: 100000,
-                        // },
-                    },
-                ],
+                test: /\.(png|jp(e*)g|svg|woff|woff2|eot|ttf|otf)$/,
+                use: [{
+                    loader: 'url-loader',
+                    options: {
+                        limit: 8000, // Convert images < 8kb to base64 strings
+                        name: 'images/[hash]-[name].[ext]'
+                    }
+                }]
             },
-
             // code
             {
                 test: /\.html$/,
