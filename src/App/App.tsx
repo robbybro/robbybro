@@ -22,7 +22,6 @@ export default class App extends React.Component<null, null> {
                     key={i}
                     href={item.href}
                     primaryText={item.username}
-                    target='_blank'
                     rightAvatar={
                         <Avatar
                             backgroundColor={item.backgroundColor}
