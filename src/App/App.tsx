@@ -9,8 +9,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Project from '../Project/Project';
 import contactItems, { ContactItem } from '../data/contact';
 import projects from '../data/projects';
-const ReactSpeedDial = require('react-speed-dial');
-const { SpeedDial, BubbleList, BubbleListItem } = ReactSpeedDial;
+
+const { SpeedDial, BubbleList, BubbleListItem } = require('react-speed-dial');
 const logo = require('../../img/rb_logo.svg');
 
 export default class App extends React.Component<null, null> {
