@@ -17,14 +17,11 @@ interface ProjectProps {
 
 export default class Project extends React.Component<ProjectProps, null> {
     render() {
-        return (
-            <section className='c-project'>
-                <div className='c-project__content'>
-                    <h1>{this.props.title}</h1>
-                    {this.props.content.body}
-                </div>
+        return <section className="c-project">
+                <h1 className="c-project__title">{this.props.title}</h1>
+                <div className="c-project__content">
                     <a
-                        className='c-project__image'
+                        className="c-project__image"
                         href={this.props.content.image.href}
                     >
                         <img
@@ -32,7 +29,8 @@ export default class Project extends React.Component<ProjectProps, null> {
                             alt={this.props.content.image.alt}
                         />
                     </a>
-            </section>
-        );
+                    <p className="c-project__description">{this.props.content.body}</p>
+                </div>
+            </section>;
     }
 }

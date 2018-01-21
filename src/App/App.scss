@@ -43,7 +43,8 @@ a {
 
 $header-height: 75vh;
 $logo-height: calc(#{$header-height}/2);
-$logo-top: calc((#{$header-height} - 3% - #{$logo-height}) / 2);
+$arrow-height: 5%;
+$logo-top: calc((#{$header-height} - #{$arrow-height} - #{$logo-height}) / 2);
 
 header {
     box-sizing: border-box;
@@ -63,7 +64,7 @@ header {
         bottom: 0;
         width: 50%;
         background-color: $background-color-dark;
-        padding-bottom: 3%;
+        padding-bottom: $arrow-height;
     }
     &:before {
         right: 50%;
