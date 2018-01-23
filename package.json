@@ -90,7 +90,7 @@
   "scripts": {
     "test": "karma start karma.conf.js",
     "build-prod": "webpack -p --config ./webpack.production.config.js",
-    "start": "PORT=80 NODE_ENV=production forever server.js",
+    "start": "NODE_ENV=production forever server.js",
     "dev": "NODE_ENV=development nodemon -L --delay 2 server.js"
   },
   "repository": {
