@@ -20,6 +20,6 @@ COPY . .
 # build production app w/ webpack
 RUN webpack -p --config webpack.production.config.js
 
-ENV PORT=80
-EXPOSE 80
+ENV PORT=8080
+EXPOSE 8080
 CMD ["npm", "start" ]

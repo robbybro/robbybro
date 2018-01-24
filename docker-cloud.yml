@@ -5,6 +5,6 @@ web:
   # Redeploy web app in case if it's image is updated.
   autoredeploy: true
 
-  # Expose port 80 of the container and map it to host's port 80
+  # Expose port 8080 of the container and map it to host's port 8080
   ports:
-    - '80:80'
+    - '8080:8080'
