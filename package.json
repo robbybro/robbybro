@@ -14,13 +14,8 @@
         "react-speed-dial": "^0.4.7"
     },
     "scripts": {
-        "build-css": "node-sass-chokidar src/ -o src/",
-        "watch-css":
-            "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-        "start-ts": "react-scripts-ts start",
-        "start": "npm-run-all -p watch-css start-ts",
-        "build-ts": "react-scripts-ts build",
-        "build": "npm-run-all build-css build-ts",
+        "start": "react-scripts-ts start",
+        "build": "react-scripts-ts build",
         "test": "react-scripts-ts test --env=jsdom",
         "eject": "react-scripts-ts eject"
     },
