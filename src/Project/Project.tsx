@@ -1,23 +1,23 @@
 import './Project.scss';
 
-import * as _ from 'underscore';
 import * as React from 'react';
 
 interface ProjectProps {
     title: string;
     content: {
-        body: any;
+        body: JSX.Element;
         image: {
             src: string;
             href: string;
             alt: string;
-        }
-    }
-};
+        };
+    };
+}
 
 export default class Project extends React.Component<ProjectProps, null> {
     render() {
-        return <section className="c-project">
+        return (
+            <section className="c-project">
                 <h1 className="c-project__title">{this.props.title}</h1>
                 <div className="c-project__content">
                     <a
@@ -29,8 +29,11 @@ export default class Project extends React.Component<ProjectProps, null> {
                             alt={this.props.content.image.alt}
                         />
                     </a>
-                    <p className="c-project__description">{this.props.content.body}</p>
+                    <p className="c-project__description">
+                        {this.props.content.body}
+                    </p>
                 </div>
-            </section>;
+            </section>
+        );
     }
 }

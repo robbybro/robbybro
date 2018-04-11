@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Playfair+Display');
-@import '../../vendor/normalize.css';
-@import '../../vendor/fa/css/font-awesome.min.css';
+@import '../vendor/normalize.css';
+@import '../vendor/fa/css/font-awesome.min.css';
 @import '../_variables.scss';
 
 // @media screen and (min-width: 300px) {
 //     body { font-size: 200px; }
 // }
-@media screen and (min-width:1200px) {
-    body { font-size:110%; } /* Increase the font size */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 110%;
+    } /* Increase the font size */
 }
 
-@media screen and (min-width:1600px) {
-    body { font-size:125%; } /* Increase the font size */
+@media screen and (min-width: 1600px) {
+    body {
+        font-size: 125%;
+    } /* Increase the font size */
 }
 
 body {
@@ -28,7 +32,6 @@ h3 {
     text-align: center;
 }
 
-
 a {
     color: $color-dark;
 
@@ -42,13 +45,13 @@ a {
 }
 
 $header-height: 75vh;
-$logo-height: calc(#{$header-height}/2);
+$logo-height: calc(#{$header-height}/ 2);
 $arrow-height: 5%;
 $logo-top: calc((#{$header-height} - #{$arrow-height} - #{$logo-height}) / 2);
 
 header {
     box-sizing: border-box;
-    background: url('../../img/me.jpg') no-repeat center  center fixed;
+    background: url('../../img/me.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,8 +61,9 @@ header {
     position: relative;
     overflow-x: hidden;
 
-    &:before, &:after {
-        content:'';
+    &:before,
+    &:after {
+        content: '';
         position: absolute;
         bottom: 0;
         width: 50%;
