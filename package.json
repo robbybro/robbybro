@@ -14,8 +14,14 @@
         "react-speed-dial": "^0.4.7"
     },
     "scripts": {
-        "start": "react-scripts-ts start",
-        "build": "react-scripts-ts build",
+        "build-css": "node-sass-chokidar src/ -o src/",
+        "watch-css":
+            "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+        "start-ts": "react-scripts-ts start",
+        "start": "npm-run-all -p watch-css start-ts",
+        "build-ts": "react-scripts-ts build",
+        "build": "npm-run-all build-css build-ts",
+        "deploy": "npm run build&&gh-pages -d build",
         "test": "react-scripts-ts test --env=jsdom",
         "eject": "react-scripts-ts eject"
     },
@@ -24,6 +30,8 @@
         "@types/node": "^9.6.4",
         "@types/react": "^16.3.8",
         "@types/react-dom": "^16.0.5",
-        "typescript": "^2.8.1"
-    }
+        "typescript": "^2.8.1",
+        "gh-pages": "^1.1.0"
+    },
+    "homepage": "https://robbybro.github.io"
 }

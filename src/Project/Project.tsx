@@ -1,4 +1,4 @@
-import './Project.scss';
+import './Project.css';
 
 import * as React from 'react';
 

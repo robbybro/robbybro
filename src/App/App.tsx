@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 
 import * as React from 'react';
 import { Avatar, FontIcon } from 'material-ui';

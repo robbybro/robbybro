@@ -51,7 +51,7 @@ $logo-top: calc((#{$header-height} - #{$arrow-height} - #{$logo-height}) / 2);
 
 header {
     box-sizing: border-box;
-    background: url('../../img/me.jpg') no-repeat center center fixed;
+    background: url('../img/me.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
