@@ -54,7 +54,8 @@ export default class App extends React.Component<null, null> {
                             and{' '}
                             <a href="https://github.com/robbybro/">
                                 write a lot of code
-                            </a>.
+                            </a>
+                            .
                         </p>
                         <p>Check out some of my work below.</p>
                     </div>

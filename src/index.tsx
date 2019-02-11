@@ -1,7 +1,18 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import App from './App/App';
-import registerServiceWorker from './registerServiceWorker';
+import Luca from './Luca/Luca';
 
-ReactDOM.render(<App />, document.getElementById('root') as HTMLElement);
+import registerServiceWorker from './registerServiceWorker';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+ReactDOM.render(
+    <Router>
+        <>
+            <Route path="/" exact component={App} />
+            <Route path="/luca/" component={Luca} />
+        </>
+    </Router>,
+    document.getElementById('root') as HTMLElement,
+);
 registerServiceWorker();
