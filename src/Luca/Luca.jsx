@@ -1,4 +1,4 @@
-import './Luca.css';
+import './Luca.scss';
 
 import * as React from 'react';
 import Fade from 'react-reveal/Fade';
@@ -15,29 +15,21 @@ const spoonGreen = require('./spoon_green.png');
 
 const TIME_INTERVAL = 3000;
 
-export default class Luca extends React.Component<
-    null,
-    {
-        prefix: string;
-        suffix: string;
-        colorIndex: number;
-        show: 'Show' | 'Hide';
-    }
-> {
-    interval: Timer;
+export default class Luca extends React.Component {
+    interval;
 
-    constructor(props: any) {
+    constructor(props) {
         super(props);
         this.state = {
             prefix: 'lu',
             suffix: 'ca',
             colorIndex: 0,
-            show: 'Show',
+            show: true,
         };
     }
 
     componentWillMount() {
-        this.interval = setInterval(this._changeName, 1500);
+        this.interval = setInterval(this._changeName, TIME_INTERVAL);
     }
 
     componentWillUnmount() {
@@ -56,8 +48,7 @@ export default class Luca extends React.Component<
                         <h1>{this.state.suffix}</h1>
                     </Fade>
                 </div>
-
-                <img src={PHOTO_COLORS[this.state.colorIndex]} />
+                <img src={PHOTO_COLORS[this.state.colorIndex]} alt='dog'/>
             </div>
         );
     }
@@ -74,6 +65,7 @@ export default class Luca extends React.Component<
                 prefix,
                 suffix,
                 colorIndex: (state.colorIndex + 1) % PHOTO_COLORS.length,
+                show: !state.show
             };
         });
     };
@@ -81,7 +73,7 @@ export default class Luca extends React.Component<
 
 const NORMAL_PREFIX = ['sp', 'sc', 'sm', 'sp', 'sn'];
 
-const NORMAL_SUFFIX = ['oon', 'oop', 'ooch', 'oot', 'l'];
+const NORMAL_SUFFIX = ['oon', 'oop', 'ooch', 'oot', 'ool'];
 
 const SPECIAL_NAME = [
     'naked armpits',
@@ -118,6 +110,8 @@ the goodest boi
 spotty chest
 good boi
 luca
-
+spoonflower
+spoon country usa why buy a spoon anywhere else
+spoon town
 
 */

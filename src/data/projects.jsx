@@ -1,18 +1,6 @@
 import * as React from 'react';
 
-interface Project {
-    title: string;
-    content: {
-        body: any;
-        image: {
-            src: string;
-            href: string;
-            alt: string;
-        };
-    };
-}
-
-const projects: Project[] = [
+const projects = [
     {
         title: 'Abalone Yoga',
         content: {

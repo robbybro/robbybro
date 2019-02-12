@@ -1,12 +1,4 @@
-export interface ContactItem {
-    name: string;
-    href: string;
-    username: string;
-    backgroundColor: string;
-    iconClass: string;
-}
-
-const contactItems: ContactItem[] = [
+const contactItems = [
     {
         name: 'gmail',
         href: 'mailto:robbybrosman@gmail.com',

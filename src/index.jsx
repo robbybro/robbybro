@@ -1,10 +1,12 @@
+import 'normalize.css';
+
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import App from './App/App';
 import Luca from './Luca/Luca';
 
 import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 ReactDOM.render(
     <Router>
@@ -13,6 +15,6 @@ ReactDOM.render(
             <Route path="/luca/" component={Luca} />
         </>
     </Router>,
-    document.getElementById('root') as HTMLElement,
+    document.getElementById('root'),
 );
 registerServiceWorker();

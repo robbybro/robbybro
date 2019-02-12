@@ -1,17 +1,17 @@
-import './App.css';
+import './App.scss';
 
 import * as React from 'react';
 import { Avatar, FontIcon } from 'material-ui';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import Project from '../Project/Project';
-import contactItems, { ContactItem } from '../data/contact';
+import contactItems from '../data/contact';
 import projects from '../data/projects';
 
 const { SpeedDial, BubbleList, BubbleListItem } = require('react-speed-dial');
 const logo = require('../img/rb_logo.svg');
 
-export default class App extends React.Component<null, null> {
+export default class App extends React.Component {
     render() {
         const listElements = contactItems.map((item, i) => {
             return (

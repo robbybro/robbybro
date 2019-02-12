@@ -1,20 +1,8 @@
-import './Project.css';
+import './Project.scss';
 
 import * as React from 'react';
 
-interface ProjectProps {
-    title: string;
-    content: {
-        body: JSX.Element;
-        image: {
-            src: string;
-            href: string;
-            alt: string;
-        };
-    };
-}
-
-export default class Project extends React.Component<ProjectProps, null> {
+export default class Project extends React.Component {
     render() {
         return (
             <section className="c-project">
