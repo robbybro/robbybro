@@ -13,17 +13,18 @@ const spoonYellow = require('./spoon_yellow.png');
 const spoonLightGreen = require('./spoon_lightgreen.png');
 const spoonGreen = require('./spoon_green.png');
 
-const TIME_INTERVAL = 3000;
+const TIME_INTERVAL = 1000;
 
 export default class Luca extends React.Component {
     interval;
-
+    counter = 0;
     constructor(props) {
         super(props);
         this.state = {
             prefix: 'lu',
             suffix: 'ca',
             colorIndex: 0,
+            nameIndex: 0,
             show: true,
         };
     }
@@ -39,47 +40,61 @@ export default class Luca extends React.Component {
     render() {
         return (
             <div className="container">
-                <h1>Sh*t I call my dog</h1>
+                <h1 className='title'>Sh*t I call my dog</h1>
                 <div className="name">
                     <Fade top opposite when={this.state.show}>
-                        <h1>{this.state.prefix}</h1>
+                        <h1 className='prefix'>{this.state.prefix}</h1>
                     </Fade>
                     <Fade bottom opposite when={this.state.show}>
-                        <h1>{this.state.suffix}</h1>
+                        <h1 className='suffix'>{this.state.suffix}</h1>
                     </Fade>
                 </div>
-                <img src={PHOTO_COLORS[this.state.colorIndex]} alt='dog'/>
+                <img src={PHOTO_COLORS[this.state.colorIndex]}alt='dog'/>
             </div>
         );
     }
 
     _changeName = () => {
-        const prefixIndex = Math.floor(Math.random() * NORMAL_PREFIX.length);
-        const suffixIndex = Math.floor(Math.random() * NORMAL_SUFFIX.length);
+        this.counter++;
+        if (this.state.show) {
+            if (this.counter % 3 === 0) {
+                const chosen = NAMES[this.state.nameIndex];
+                const prefix = chosen.substring(0, chosen.length / 2);
+                const suffix = chosen.substring(chosen.length / 2);
 
-        const prefix = NORMAL_PREFIX[prefixIndex];
-        const suffix = NORMAL_SUFFIX[suffixIndex];
+                this.setState(state => {
+                    return {
+                        prefix,
+                        suffix,
+                        colorIndex: (state.colorIndex + 1) % PHOTO_COLORS.length,
+                        nameIndex: (state.nameIndex + 1) % NAMES.length,
+                        show: !state.show
+                    };
+                });
+            }
 
-        this.setState(state => {
-            return {
-                prefix,
-                suffix,
-                colorIndex: (state.colorIndex + 1) % PHOTO_COLORS.length,
-                show: !state.show
-            };
-        });
+        }
+        else {
+            this.counter = 0;
+            this.setState(state => ({show: !state.show}));
+        }
     };
 }
 
-const NORMAL_PREFIX = ['sp', 'sc', 'sm', 'sp', 'sn'];
-
-const NORMAL_SUFFIX = ['oon', 'oop', 'ooch', 'oot', 'ool'];
-
-const SPECIAL_NAME = [
-    'naked armpits',
+const NAMES = [
+    'spoon',
     'the goodest boi',
-    'spotty chest',
+    'scoop',
+    'smooch',
     'good boi',
+    'spoot',
+    'spoon country usa why buy a spoon anywhere else',
+    'spool',
+    'spotty chest',
+    'spoon town',
+    'naked armpits',
+    'spoonflower',
+    'luca'
 ];
 
 const PHOTO_COLORS = [
@@ -93,6 +108,7 @@ const PHOTO_COLORS = [
     spoonLightGreen,
     spoonGreen,
 ];
+
 
 /*
 
