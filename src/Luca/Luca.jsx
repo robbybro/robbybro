@@ -24,6 +24,7 @@ export default class Luca extends React.Component {
             prefix: 'lu',
             suffix: 'ca',
             colorIndex: 0,
+            fontSize: 'large',
             nameIndex: 0,
             show: true,
         };
@@ -40,16 +41,16 @@ export default class Luca extends React.Component {
     render() {
         return (
             <div className="container">
-                <h1 className='title'>Sh*t I call my dog</h1>
+                <h1 className="title">Sh*t I call my dog</h1>
                 <div className="name">
                     <Fade top opposite when={this.state.show}>
-                        <h1 className='prefix'>{this.state.prefix}</h1>
+                        <h1 className={`prefix ${this.state.fontSize}`}>{this.state.prefix}</h1>
                     </Fade>
                     <Fade bottom opposite when={this.state.show}>
-                        <h1 className='suffix'>{this.state.suffix}</h1>
+                        <h1 className={`suffix ${this.state.fontSize}`}>{this.state.suffix}</h1>
                     </Fade>
                 </div>
-                <img src={PHOTO_COLORS[this.state.colorIndex]}alt='dog'/>
+                <img src={PHOTO_COLORS[this.state.colorIndex]} alt="dog" />
             </div>
         );
     }
@@ -58,7 +59,7 @@ export default class Luca extends React.Component {
         this.counter++;
         if (this.state.show) {
             if (this.counter % 3 === 0) {
-                const chosen = NAMES[this.state.nameIndex];
+                const chosen = NAMES[this.state.nameIndex].name;
                 const prefix = chosen.substring(0, chosen.length / 2);
                 const suffix = chosen.substring(chosen.length / 2);
 
@@ -66,35 +67,35 @@ export default class Luca extends React.Component {
                     return {
                         prefix,
                         suffix,
-                        colorIndex: (state.colorIndex + 1) % PHOTO_COLORS.length,
+                        fontSize: NAMES[this.state.nameIndex].fontSize,
+                        colorIndex:
+                            (state.colorIndex + 1) % PHOTO_COLORS.length,
                         nameIndex: (state.nameIndex + 1) % NAMES.length,
-                        show: !state.show
+                        show: !state.show,
                     };
                 });
             }
-
-        }
-        else {
+        } else {
             this.counter = 0;
-            this.setState(state => ({show: !state.show}));
+            this.setState(state => ({ show: !state.show }));
         }
     };
 }
 
 const NAMES = [
-    'spoon',
-    'the goodest boi',
-    'scoop',
-    'smooch',
-    'good boi',
-    'spoot',
-    'spoon country usa why buy a spoon anywhere else',
-    'spool',
-    'spotty chest',
-    'spoon town',
-    'naked armpits',
-    'spoonflower',
-    'luca'
+    { name: 'spoon', fontSize: 'large' },
+    { name: 'the goodest boi', fontSize: 'medium' },
+    { name: 'scoop', fontSize: 'large' },
+    { name: 'smooch', fontSize: 'large' },
+    { name: 'good boi', fontSize: 'medium' },
+    { name: 'spoon country usa why buy a spoon anywhere else', fontSize: 'small' },
+    { name: 'spool', fontSize: 'large' },
+    { name: 'spotty chest', fontSize: 'medium' },
+    { name: 'spoon', fontSize: 'large' },
+    { name: 'spoon town', fontSize: 'medium' },
+    { name: 'naked armpits', fontSize: 'medium' },
+    { name: 'spoonflower', fontSize: 'medium' },
+    { name: 'luca', fontSize: 'large' },
 ];
 
 const PHOTO_COLORS = [
@@ -108,7 +109,6 @@ const PHOTO_COLORS = [
     spoonLightGreen,
     spoonGreen,
 ];
-
 
 /*
 
